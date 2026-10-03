@@ -1,0 +1,381 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>ArbiAgent — AI-powered yield, built on Arbitrum</title>
+<meta name="description" content="ArbiAgent is an AI-powered yield vault on Arbitrum.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <div class="wrap">
+    <a class="logo" href="#top">Arbi<i>Agent</i></a>
+
+    <ul>
+      <li><a href="#problem">Problem</a></li>
+      <li><a href="#how">How it works</a></li>
+      <li><a href="#preview">Product</a></li>
+      <li><a href="#roadmap">Roadmap</a></li>
+    </ul>
+
+    <a class="btn primary"
+      href="https://arbi-agent-vault.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer">
+      Launch App
+    </a>
+  </div>
+</nav>
+
+<header class="hero" id="top"><div class="wrap">
+  <div>
+    <div class="badge"><b></b>Powered by Arbitrum</div>
+    <h1>AI-powered yield, built on Arbitrum.</h1>
+    <p class="lead">ArbiAgent analyzes market conditions, proposes yield strategies, and lets smart contracts handle execution.</p>
+    <div class="cta"><a class="btn primary" href="#app">Launch App</a><a class="btn ghost" href="#how">How it works</a></div>
+  </div>
+  <div class="flow glass" aria-label="ArbiAgent product flow">
+    <div class="fnode"><div class="dot">AI</div><div><strong>AI Agent</strong><span>Analyzes market conditions</span></div></div>
+    <div class="fnode"><div class="dot">SIG</div><div><strong>Strategy Signal</strong><span>A proposed rebalance</span></div></div>
+    <div class="fnode you"><div class="dot">YOU</div><div><strong>User Signs</strong><span>You review and authorize</span></div></div>
+    <div class="fnode"><div class="dot">VLT</div><div><strong>ArbiAgent Vault</strong><span>Validates the signature on-chain</span></div></div>
+    <div class="fnode"><div class="dot">AV3</div><div><strong>Aave V3</strong><span>Lending market</span></div></div>
+    <div class="fnode"><div class="dot">YLD</div><div><strong>Yield</strong><span>Earned on your deposit</span></div></div>
+  </div>
+</div></header>
+
+<main>
+<section id="problem" class="problem-section"><div class="wrap">
+  <div class="section-intro">
+    <div>
+      <span class="eyebrow">THE PROBLEM</span>
+      <h2>DeFi yield shouldn't require <span>constant monitoring.</span></h2>
+    </div>
+    <p class="lead">Markets move constantly. ArbiAgent turns that continuous monitoring into a structured workflow — from market signals to authorized execution.</p>
+  </div>
+  <div class="problem-bottom"><div class="bottom-line"></div><span><b>ArbiAgent</b> connects market intelligence with controlled on-chain execution.</span></div>
+</div></section>
+
+<section id="how" class="how-section"><div class="wrap">
+  <div class="how-header">
+    <div>
+      <span class="eyebrow">HOW IT WORKS</span>
+      <h2>From AI intelligence <span>to on-chain execution.</span></h2>
+    </div>
+    <p class="lead">ArbiAgent separates the intelligence layer from the execution layer. The AI analyzes the market and signs a strategy signal, while the Vault validates and executes it on-chain.</p>
+  </div>
+
+  <div class="protocol-expansion glass">
+    <div class="expansion-copy">
+      <span class="eyebrow">PROTOCOL-READY INFRASTRUCTURE</span>
+      <h3>Built beyond a single DeFi protocol.</h3>
+      <p>Aave V3 is the first execution venue. The infrastructure is designed to evolve toward additional DeFi integrations without changing the core intelligence and authorization model.</p>
+    </div>
+    <div class="protocol-list">
+      <div class="protocol-pill active"><span class="protocol-mark">A</span><div><strong>Aave V3</strong><small>Current</small></div></div>
+      <div class="protocol-pill"><span class="protocol-mark">U</span><div><strong>Uniswap</strong><small>Future integration</small></div></div>
+      <div class="protocol-pill"><span class="protocol-mark">M</span><div><strong>Morpho</strong><small>Future integration</small></div></div>
+      <div class="protocol-pill"><span class="protocol-mark">C</span><div><strong>Compound</strong><small>Future integration</small></div></div>
+      <div class="protocol-pill"><span class="protocol-mark">CRV</span><div><strong>Curve</strong><small>Future integration</small></div></div>
+    </div>
+  </div>
+
+  <div class="how-bottom"><span>AI proposes</span><i>→</i><span>AI signs</span><i>→</i><strong>Vault validates</strong><i>→</i><b>Protocol executes</b></div>
+</div></section>
+
+<section class="diff" id="difference"><div class="wrap">
+  <h2><span>La IA propone.</span><span>Usted autoriza.</span><span>El contrato inteligente se ejecuta.</span></h2>
+  <p class="statement"><strong>La IA es la capa de decisión. Los contratos inteligentes son la capa de ejecución.</strong></p>
+</div></section>
+
+<section id="preview" class="preview-section"><div class="wrap">
+  <h2>Vea ArbiAgent en acción.</h2>
+  <p class="preview-intro">A visual walkthrough of the application flow, from wallet connection and deposit to AI strategy execution and activity.</p>
+
+  <div class="preview-flow" aria-label="ArbiAgent application flow">
+
+  <article class="preview-card glass">
+    <div class="preview-card-head">
+      <span class="preview-step">01</span>
+      <div>
+        <strong>Wallet</strong>
+        <small>Connection &amp; balance</small>
+      </div>
+    </div>
+    <div class="preview-image">
+      <img src="assets/images/01-wallet.png"
+           alt="ArbiAgent wallet connected with active status and balance"
+           loading="lazy">
+    </div>
+  </article>
+
+  <article class="preview-card glass">
+    <div class="preview-card-head">
+      <span class="preview-step">02</span>
+      <div>
+        <strong>Deposit</strong>
+        <small>Enter capital into the vault</small>
+      </div>
+    </div>
+    <div class="preview-image">
+      <img src="assets/images/02-deposit.png"
+           alt="ArbiAgent deposit interface with USDC amount and confirmation"
+           loading="lazy">
+    </div>
+  </article>
+
+  <article class="preview-card glass">
+    <div class="preview-card-head">
+      <span class="preview-step">03</span>
+      <div>
+        <strong>Risk profile</strong>
+        <small>Strategy parameters</small>
+      </div>
+    </div>
+    <div class="preview-image">
+      <img src="assets/images/03-risk-profile.png"
+           alt="ArbiAgent moderate risk profile with exposure and rebalance settings"
+           loading="lazy">
+    </div>
+  </article>
+
+  <article class="preview-card glass">
+    <div class="preview-card-head">
+      <span class="preview-step">04</span>
+      <div>
+        <strong>AI recommendation</strong>
+        <small>Review the proposed strategy</small>
+      </div>
+    </div>
+    <div class="preview-image">
+      <img src="assets/images/04-ai-recommendation.png"
+           alt="ArbiAgent AI recommendation to increase supply in Aave V3"
+           loading="lazy">
+    </div>
+  </article>
+
+  <article class="preview-card preview-card-wide glass">
+    <div class="preview-card-head">
+      <span class="preview-step">05</span>
+      <div>
+        <strong>Activity</strong>
+        <small>On-chain execution history</small>
+      </div>
+    </div>
+    <div class="preview-image">
+      <img src="assets/images/05-activity.png"
+           alt="ArbiAgent activity table showing deposits and AI rebalances"
+           loading="lazy">
+    </div>
+  </article>
+
+</div>
+
+  <p class="preview-note">Interface previews use illustrative data.</p>
+</div></section>
+
+<section class="roadmap" id="roadmap">
+  <div class="wrap">
+
+    <div class="roadmap-header">
+      <span class="eyebrow">ARBIAGENT ROADMAP</span>
+      <h2>AI-powered multi-protocol yield allocation on Arbitrum</h2>
+    </div>
+
+    <div class="roadmap-timeline">
+
+      <!-- Q4 2026 -->
+      <article class="roadmap-phase">
+        <div class="roadmap-marker">
+          <span>01</span>
+        </div>
+
+        <div class="roadmap-card glass">
+          <div class="roadmap-top">
+            <div>
+              <span class="roadmap-quarter">Q4 2026</span>
+              <span class="roadmap-date">OCT — DEC 2026</span>
+            </div>
+            <span class="roadmap-status">BUILD</span>
+          </div>
+
+          <h3>FOUNDATION</h3>
+
+          <ul>
+            <li>AI-powered Vault</li>
+            <li>Arbitrum</li>
+            <li>Aave V3</li>
+            <li>Risk-based allocation</li>
+            <li>EIP-712 authorization</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Q1 2027 -->
+      <article class="roadmap-phase">
+        <div class="roadmap-marker">
+          <span>02</span>
+        </div>
+
+        <div class="roadmap-card glass">
+          <div class="roadmap-top">
+            <div>
+              <span class="roadmap-quarter">Q1 2027</span>
+              <span class="roadmap-date">JAN — MAR 2027</span>
+            </div>
+            <span class="roadmap-status">OPTIMIZE</span>
+          </div>
+
+          <h3>SMART ALLOCATION</h3>
+
+          <ul>
+            <li>Dynamic target allocation</li>
+            <li>AI risk / yield engine</li>
+            <li>Automated strategy decisions</li>
+            <li>Safety limits</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Q2 2027 -->
+      <article class="roadmap-phase">
+        <div class="roadmap-marker">
+          <span>03</span>
+        </div>
+
+        <div class="roadmap-card glass">
+          <div class="roadmap-top">
+            <div>
+              <span class="roadmap-quarter">Q2 2027</span>
+              <span class="roadmap-date">APR — JUN 2027</span>
+            </div>
+            <span class="roadmap-status">EXPAND</span>
+          </div>
+
+          <h3>MULTI-PROTOCOL</h3>
+
+          <ul>
+            <li>Aave V3</li>
+            <li>Morpho</li>
+            <li>Protocol adapters</li>
+            <li>Yield comparison</li>
+            <li>Liquidity-aware allocation</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Q3 2027 -->
+      <article class="roadmap-phase">
+        <div class="roadmap-marker">
+          <span>04</span>
+        </div>
+
+        <div class="roadmap-card glass">
+          <div class="roadmap-top">
+            <div>
+              <span class="roadmap-quarter">Q3 2027</span>
+              <span class="roadmap-date">JUL — SEP 2027</span>
+            </div>
+            <span class="roadmap-status">AUTOMATE</span>
+          </div>
+
+          <h3>AUTONOMOUS REBALANCING</h3>
+
+          <ul>
+            <li>Automated rebalancing</li>
+            <li>Keeper / executor</li>
+            <li>Global vault strategy</li>
+            <li>Individual user shares</li>
+            <li>Liquidity reserve</li>
+          </ul>
+        </div>
+      </article>
+
+      <!-- Q4 2027 -->
+      <article class="roadmap-phase">
+        <div class="roadmap-marker">
+          <span>05</span>
+        </div>
+
+        <div class="roadmap-card glass">
+          <div class="roadmap-top">
+            <div>
+              <span class="roadmap-quarter">Q4 2027</span>
+              <span class="roadmap-date">OCT — DEC 2027</span>
+            </div>
+            <span class="roadmap-status">SCALE</span>
+          </div>
+
+          <h3>AUTONOMOUS YIELD ENGINE</h3>
+
+          <ul>
+            <li>Continuous monitoring</li>
+            <li>Multi-protocol optimization</li>
+            <li>Risk-adjusted allocation</li>
+            <li>New DeFi protocols</li>
+            <li>Scalable infrastructure</li>
+          </ul>
+        </div>
+      </article>
+
+    </div>
+  </div>
+</section>
+
+<section class="final" id="app"><div class="wrap"><div class="glass">
+  <h2>Let your strategy work for you.</h2>
+  <p class="lead">Explore automated yield strategies with ArbiAgent on Arbitrum.</p>
+  <div class="cta">
+    <a class="btn primary"
+      href="https://arbi-agent-vault.vercel.app/"
+      target="_blank"
+      rel="noopener noreferrer">
+      Launch ArbiAgent
+    </a>
+    <a class="btn ghost"
+      href="https://www.figma.com/design/HpT2lmOnL7zNdsI1tkHBME/ArbiAgent_Vault?node-id=1-59&t=2IPTi04HvVm9MRxg-0"
+      target="_blank"
+      rel="noopener noreferrer">
+      View architecture
+    </a>
+  </div></div></section>
+
+<footer><div class="wrap">
+  <div><div class="logo">Arbi<i>Agent</i></div><p style="margin-top:8px">AI-powered yield infrastructure on Arbitrum.</p>
+    <div class="tech"><span>Arbitrum</span><span>Aave</span><span>EIP-712</span></div></div>
+  <ul>
+    <li>
+      <a href="https://arbi-agent-vault.vercel.app/"
+        target="_blank"
+        rel="noopener noreferrer">
+        App
+      </a>
+    </li>
+
+    <li>
+      <a href="https://www.figma.com/design/HpT2lmOnL7zNdsI1tkHBME/ArbiAgent_Vault?node-id=1-59&t=2IPTi04HvVm9MRxg-0"
+        target="_blank"
+        rel="noopener noreferrer">
+        Architecture
+      </a>
+    </li>
+
+    <li>
+      <a href="https://github.com/YisusCode1/ArbiAgent_Vault"
+        target="_blank"
+        rel="noopener noreferrer">
+        GitHub
+      </a>
+    </li>
+  </ul>
+</div></footer>
+
+</main>
+<script src="js/main.js" defer></script>
+</body>
+</html>
